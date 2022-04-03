@@ -1,0 +1,48 @@
+---
+title: "OrganicChemistryUnknown_progress_report"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+The purpose of the project is to generate a search engine that will assist in narrowing the list of OBU organic unknowns based off of the following criteria:melting point, boiling point, whether the compound is a solid or liqid at room temperature, and high priority functional groups. The project will contain 3 main phases that are listed as followed.
+
+Phase 1: compilation of data to satisfy the criteria needed to generate an output.
+
+Phase 2: organization of the compiled data via tidy data standards, in order to finalize the database.
+
+Phase 3: joining the data in an SQL process.
+
+Phase 4: creation of the of the webpage and generating the interface.
+
+The group is currently in phase 1 and the work shall be divided by inividually compiling the data by functional group. Listed below is the division of functional groups by group member:
+
+Rachel: acetals, acid anyhydrides, acid halides, alcohols, aldehydes, alkanes, alkenes, amines, arylalkanes, and AzoCompounds
+
+Jake:
+
+
+Devin:
+
+
+
+Reid:
+
+Responsibilites for each phase to follow will be assigned after meeting with Dr. Malmberg.
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
