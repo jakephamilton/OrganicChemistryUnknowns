@@ -32,6 +32,15 @@ Devin: Quinones; Sulfates; Sulfides; Sulfocompounds; Thiols; Ureas; Monomers for
 
 Reid: carbamates; carbanilides; carbohydrates; carboxylicacids; cyanates; isoesters; thioesters; ethers; guanidines
 
+Resources:
+https://pubchem.ncbi.nlm.nih.gov/
+https://www.chemicalbook.com/.
+https://www.sigmaaldrich.com/US.
+https://www.fishersci.com/ 
+https://stackoverflow.com/
+https://en.wikipedia.org/
+all information is currently being entered into an excel spreadsheet; all questions are being presented to Dr. Malmberg along with the course guidline materials.
+
 Responsibilites for each phase to follow will be assigned after meeting with Dr. Malmberg.
 ```{r cars}
 summary(cars)
