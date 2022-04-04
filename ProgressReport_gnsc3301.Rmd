@@ -23,7 +23,7 @@ The group is currently in phase 1 and the work shall be divided by inividually c
 
 Rachel: acetals, acid anyhydrides, acid halides, alcohols, aldehydes, alkanes, alkenes, amines, arylalkanes, and AzoCompounds
 
-Jake:
+Jake: Amides; HeterocyclicCompounds; Hydrazines,Hydrazides; Imides; Ketones; Nitrates,Nitrites; Nitriles; Nitro-containingCompounds; Oximes; Phenols; PhosphorousCompounds
 
 
 Devin:
