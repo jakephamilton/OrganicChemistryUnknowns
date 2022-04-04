@@ -26,7 +26,7 @@ Rachel: acetals, acid anyhydrides, acid halides, alcohols, aldehydes, alkanes, a
 Jake: Amides; HeterocyclicCompounds; Hydrazines,Hydrazides; Imides; Ketones; Nitrates,Nitrites; Nitriles; Nitro-containingCompounds; Oximes; Phenols; PhosphorousCompounds
 
 
-Devin:
+Devin: Quinones; Sulfates; Sulfides; Sulfocompounds; Thiols; Ureas; Monomers for polymers; Misc. compounds
 
 
 
