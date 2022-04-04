@@ -30,7 +30,7 @@ Devin:
 
 
 
-Reid:
+Reid: carbamates; carbanilides; carbohydrates; carboxylicacids; cyanates; isoesters; thioesters; ethers; guanidines
 
 Responsibilites for each phase to follow will be assigned after meeting with Dr. Malmberg.
 ```{r cars}
