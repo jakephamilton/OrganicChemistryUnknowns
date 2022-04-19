@@ -1,0 +1,28 @@
+Pseudo Code that needs to be translated is described below
+
+The user will enter Y/N for "is the compound a solid?"
+for yes, the user will be directed to enter a melting point
+the program will pull all values from the SQL database within a +/- 20 range of the entered value
+if null is entered, the program will proceed to boiling point
+
+for no, the user will be directed to enter the boiling point 
+the program will pull all values from the SQL database within a +/- 50 range of the entered value
+if null is entered, the program will proceed to functional groups
+
+the user will be directed to enter Y for all of the functional groups the user believes that they have
+
+Does the compound contain an amine?
+Does the compound contain an amide?
+Does the compound contain an alkane?
+Does the compound contain an alkene?
+Does the compound contain an alcohol?
+Does the compound contain a benzene?
+Does the compound contain a sulfur?
+Does the compound contain an aldehyde?
+Does the compound contain a ketone?
+Does the compound contain an ether?
+Does the compound contain an ester?
+... so on and so forth
+the program will then pull all values fromt the SQL database that contain the selected functional groups
+
+a list will then be displayed containing the names of all the compounds that met the criteria of all 4 data entry points
