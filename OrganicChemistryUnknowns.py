@@ -4,7 +4,7 @@ cur = con.cursor ()
 
 solid = input('is the compound a solid? Y or N')
 if solid = "Y":
-  melting_point = input ('what is the melting point? enter numeriacl value')
+  melting_point = input ('what is the melting point? enter numerical value')
   boiling_point = ""
 
   else:
