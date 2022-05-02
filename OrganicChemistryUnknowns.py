@@ -34,7 +34,7 @@ for x in functional_groups:
 cur.execute:("select * from Organic_Uknowns where melting_point == input", {"input": 25})
 
 #Selecting boiling point from group list  
-cur.execute:("select * from Organic_Uknowns where boiling_point=: input", {"input": 25})
+cur.execute:("select * from Organic_Uknowns where boiling_point == input", {"input": 25})
 
 #Selecting functional groups from group list
 cur.execute:("select * from Organic_Uknowns where functional_groups=: x", {"x": 0})   
