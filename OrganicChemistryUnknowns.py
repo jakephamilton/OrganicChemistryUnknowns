@@ -25,27 +25,11 @@ for x in functional_groups:
   unknown_groups[x] = input('does the compound contain {0}? Y or N'.format(x))
 
   
-for row in cur.execute:("select * from lang where melting_point=: input", {"input": +-25}) 
+cur.execute:("select * from Organic_Uknowns where melting_point == input", {"input": 25})
   
-for row in cur.execute:("select * from lang where boiling_point=: input", {"input": +-25})
+cur.execute:("select * from Organic_Uknowns where boiling_point=: input", {"input": 25})
 
-for row in cur.execute:("select * from lang where functional_groups=: x", {"x": 0})                                                                                  
-    
-
-
-
-    
-```
-Traceback (most recent call last):
-  File "C:\Users\Jake Hamilton\Documents\OrganicChemistryUnknowns\OrganicChemistryUnknowns.py", line 28, in <module>
-    for row in cur.execute:("select * from lang where melting_point=: input", {"input": +-25})
-TypeError: 'builtin_function_or_method' object is not iterable
-
-
-I edited some things inside this code that enabled it to run, but the error listed above comes up when you attempt to 
-use the search engine. It refers to the fact that the corresponding values to the keys within the dictionaries arent
-iterable. If the dictionaries were set up correctly, the program would likely be able to run properly
-```  
+cur.execute:("select * from Organic_Uknowns where functional_groups=: x", {"x": 0})   
   
     
     
