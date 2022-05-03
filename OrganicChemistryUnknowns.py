@@ -30,14 +30,19 @@ unknown_groups = {}
 for x in functional_groups:
   unknown_groups[x] = input('does the compound contain {0}? Y or N'.format(x))
 
+#Creating list of groups that were selected by the user
+list_of_groups = [x for x in functional_groups if unknown_groups[x] == "Y"]
+
+functional_sql = " AND ".join(['functional_groups LIKE "%{}%"'.format(x) for x in list_of_groups])
+
 #Selecting melting point from group list
-cur.execute:("select * from Organic_Uknowns where melting_point == input", {"input": 25})
+if solid == "Y":
+    cur.execute("select * from Organic_Uknowns where melting_point >= :input-25 AND melting_point <= :input+25 AND " + functional_sql, {"input": melting_point})
 
-#Selecting boiling point from group list  
-cur.execute:("select * from Organic_Uknowns where boiling_point == input", {"input": 25})
-
-#Selecting functional groups from group list
-cur.execute:("select * from Organic_Uknowns where functional_groups=: x", {"x": 0})   
+#Selecting boiling point from group list
+else:
+    cur.execute("select * from Organic_Uknowns where boiling_point >= :input-25 AND boiling_point <= :input+25 AND " + functional_sql, {"input": boiling_point})
+print(cur.fetchall())  
   
     
     
