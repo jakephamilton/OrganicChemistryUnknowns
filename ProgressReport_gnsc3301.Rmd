@@ -42,16 +42,19 @@ https://en.wikipedia.org/
 all information is currently being entered into an excel spreadsheet; all questions are being presented to Dr. Malmberg along with the course guidline materials.
 
 Responsibilites for each phase to follow will be assigned after meeting with Dr. Malmberg.
-```{r cars}
-summary(cars)
-```
 
-## Including Plots
 
-You can also embed plots, for example:
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+Summary of project:
+  We took the compounds from the list of possible Organic Chemistry Lab Unknowns, and compiled them in an Excel spreadsheet, including for each compound the melting point, boiling point, physical state at room temperature, and any notable functional groups that were included in each compound. This spreadsheet was then saved as a .csv file so the values could be queried from the spreadsheet in an SQL database. Finally, a Python code was written to create a search engine that would query chemical compounds that could be selected based on specified physical state, melting point, boiling point, and functional groups.
+  
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Contributions by each member:
+
+Devin:
+
+Jake: creating the group GitHub repository, entering the information for my part of the compounds in the Excel spreadsheet, writing about 40% of the python code (with assistance from Dr. Malmberg), writing some of the descriptions of our project in the RMarkdown document.
+
+Rachel:
+
+Reid:
