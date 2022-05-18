@@ -46,7 +46,11 @@ Responsibilites for each phase to follow will be assigned after meeting with Dr.
 
 
 Summary of project:
-  We took the compounds from the list of possible Organic Chemistry Lab Unknowns, and compiled them in an Excel spreadsheet, including for each compound the melting point, boiling point, physical state at room temperature, and any notable functional groups that were included in each compound. This spreadsheet was then saved as a .csv file so the values could be queried from the spreadsheet in an SQL database. Finally, a Python code was written to create a search engine that would query chemical compounds that could be selected based on specified physical state, melting point, boiling point, and functional groups.
+  We took the compounds from the list of possible Organic Chemistry Lab Unknowns, and compiled them in an Excel spreadsheet, including for each compound
+  the melting point, boiling point, physical state at room temperature, and any notable functional groups that were included in each compound.
+  This spreadsheet was then saved as a .csv file so the values could be queried from the spreadsheet in an SQL database.
+  Finally, a Python code was written to create a search engine that would query chemical compounds that could be selected based on specified physical 
+  state, melting point, boiling point, and functional groups.
   
 
 Contributions by each member:
@@ -55,6 +59,11 @@ Devin:
 
 Jake: creating the group GitHub repository, entering the information for my part of the compounds in the Excel spreadsheet, writing about 40% of the python code (with assistance from Dr. Malmberg), writing some of the descriptions of our project in the RMarkdown document.
 
-Rachel:
+Rachel: Entering approximately 350-400 compounds into the database, compiling the SQL database (with assistance from Dr.Malmberg),
+writing the first block of code for the interfacting questions (with assistance from Dr.Malmberg), starting and writing 60% of the progress report 
+RMarkdown file. 
 
 Reid:
+
+Acknowledgement: We would like to thank Dr. Malmberg for his patience with us during this project, we were in need of much assistance and were blessed
+with the opportunity to lean much about programming from him.
