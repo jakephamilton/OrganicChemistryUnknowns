@@ -57,7 +57,8 @@ Contributions by each member:
 
 Devin:
 
-Jake: creating the group GitHub repository, entering the information for my part of the compounds in the Excel spreadsheet, writing about 40% of the python code (with assistance from Dr. Malmberg), writing some of the descriptions of our project in the RMarkdown document.
+Jake: creating the group GitHub repository, entering the information for my part of the compounds in the Excel spreadsheet, 
+writing about 40% of the python code (with assistance from Dr. Malmberg), writing some of the descriptions of our project in the RMarkdown document.
 
 Rachel: Entering approximately 350-400 compounds into the database, compiling the SQL database (with assistance from Dr.Malmberg),
 writing the first block of code for the interfacting questions (with assistance from Dr.Malmberg), starting and writing 60% of the progress report 
