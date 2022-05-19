@@ -64,7 +64,7 @@ Rachel: Entering approximately 350-400 compounds into the database, compiling th
 writing the first block of code for the interfacting questions (with assistance from Dr.Malmberg), starting and writing 60% of the progress report 
 RMarkdown file. 
 
-Reid:
+Reid:Entering compounds into the database, editing some of the code for working purposes, writing explinations of what the lines of code do so that someone can recreate the code if need be.
 
 Acknowledgement: We would like to thank Dr. Malmberg for his patience with us during this project, we were in need of much assistance and were blessed
 with the opportunity to lean much about programming from him.
