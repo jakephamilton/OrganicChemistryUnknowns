@@ -55,7 +55,7 @@ Summary of project:
 
 Contributions by each member:
 
-Devin:
+Devin: Helping compile the coumpound lists, as well as helping Reid with writing the desctriptive code.
 
 Jake: creating the group GitHub repository, entering the information for my part of the compounds in the Excel spreadsheet, 
 writing about 40% of the python code (with assistance from Dr. Malmberg), writing some of the descriptions of our project in the RMarkdown document.
